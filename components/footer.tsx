@@ -8,12 +8,12 @@ export default function Footer() {
   return (
     <footer className="border-t py-8 bg-[#FDE2E4]">
       <div className="container px-4 md:px-6">
-        <div className="mt-0 pt-0 border-0 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="mt-0 pt-0 border-0 flex flex-col md:flex-row justify-center items-center gap-4">
           <p className="text-sm text-muted-foreground">
             © {currentYear} Vinci Code. Todos os direitos reservados.
           </p>
 
-          <div className="flex gap-4">
+          {/* <div className="flex gap-4">
             <Link
               href="https://www.instagram.com/psicologakalynna"
               className="text-muted-foreground hover:text-foreground"
@@ -38,7 +38,7 @@ export default function Footer() {
                 <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
               </svg>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
