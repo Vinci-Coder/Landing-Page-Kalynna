@@ -5,26 +5,27 @@ export default function Testimonials() {
   const testimonials = [
     {
       quote:
-        "A abordagem compassiva da psicóloga Kalynna me ajudou a superar a ansiedade com a qual luto há anos. Suas técnicas me deram ferramentas que uso todos os dias para gerenciar o estresse e viver mais plenamente.",
-      name: "Michael R.",
-      title: "Client for 2 years",
-      avatar: "MR",
+        "Sempre fui muito ansioso e achava que isso fazia parte de mim. Com a Kalynna aprendi a me organizar melhor e hoje consigo viver de forma mais leve.",
+      name: "Saulo R.",
+      title: "Paciente há 1 ano",
+      avatar: "SR",
     },
     {
       quote:
-        "As sessões de terapia de casal salvaram nosso casamento. Aprendemos a nos comunicar com eficácia e a entender as necessidades um do outro. Sou grata pelo espaço seguro que a psicóloga Kalynna criou para nós.",
-      name: "Jennifer & David",
-      title: "Couples Therapy",
-      avatar: "JD",
+        "A terapia me ajudou a entender melhor minhas emoções. Hoje consigo lidar de forma mais tranquila com situações que antes me deixavam muito estressado.",
+      name: "Larissa S.",
+      title: "Paciente há 1 ano e meio",
+      avatar: "LS",
     },
     {
       quote:
-        "Depois de anos lutando contra traumas, finalmente encontrei a cura através da terapia EMDR. A experiência e a paciência da psicóloga Kalynna fizeram toda a diferença na minha jornada de recuperação.",
-      name: "Sarah T.",
-      title: "Trauma Recovery",
-      avatar: "ST",
+        "Eu tinha dificuldade em me abrir e falar sobre o que sentia. Aos poucos, fui ganhando confiança e hoje consigo me expressar sem tanto peso.",
+      name: "João P.",
+      title: "Paciente há 3 anos",
+      avatar: "JP",
     },
   ]
+  
 
   return (
     <section id="testimonials" className="py-20 bg-gradient-to-b from-[#D4E9F7] to-[#fff] ">
